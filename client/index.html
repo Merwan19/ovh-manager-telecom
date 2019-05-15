@@ -19,13 +19,16 @@
                 </div>
                 <!-- /Skip to main content -->
                 <div data-ui-view="navbar">
-                    <oui-navbar fixed
-                        data-active-link="telecom"
-                        data-brand="::navbar.brand"
-                        data-main-links="::navbar.managerLinks"
-                        data-aside-links="::navbar.internalLinks"
-                        data-toggler-links="::navbar.responsiveLinks">
-                    </oui-navbar>
+                    <ovh-manager-navbar
+                        data-navbar-options="{
+                            toggle: {
+                                event: 'sidebar:loaded'
+                            },
+                            fixed: true,
+                            universe: 'telecom'
+                        }"
+                        data-sidebar-links="navbar.sidebarLinks">
+                    </ovh-manager-navbar>
                 </div>
                 <button class="visible-xs visible-sm"
                         type="button"

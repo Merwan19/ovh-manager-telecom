@@ -892,6 +892,11 @@
     rollup-pluginutils "^2.3.3"
     slash "^2.0.0"
 
+"@ovh-ux/manager-config@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@ovh-ux/manager-config/-/manager-config-0.2.0.tgz#0c2cce370c372993ed4ed25783191fe9112db839"
+  integrity sha512-FEGIRGEaNQcHlHienK0Egf+JEB9FUK9PyJgkMP575pPDVTy67JRRD7uZ5FXCUfRtVgYLD4VYjwOzeucr3WtvFg==
+
 "@ovh-ux/manager-core@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@ovh-ux/manager-core/-/manager-core-4.0.1.tgz#ac4411f6093281b929d3a0a46f3be7d20d9f21c1"
@@ -907,6 +912,14 @@
   dependencies:
     bootstrap4 twbs/bootstrap#v4.0.0
     lodash "^4.17.11"
+
+"@ovh-ux/manager-navbar@^0.2.0-alpha.2":
+  version "0.2.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@ovh-ux/manager-navbar/-/manager-navbar-0.2.0-alpha.2.tgz#a7d0c64280d5e12ce2f97dbff67e4ad822fa5096"
+  integrity sha512-IaGrQoPqr6P/nG9cdvPin28FE1Dr/+p95X8cm47WFf7Hw5WAwmfZAN2g027BIWFp/mlMPnnKvQPwzIPWybPfXQ==
+  dependencies:
+    lodash "^4.17.11"
+    moment "^2.24.0"
 
 "@ovh-ux/manager-overthebox@^3.0.0":
   version "3.0.0"
@@ -1022,9 +1035,9 @@
     lodash "^4.17.11"
 
 "@ovh-ux/ng-ovh-chatbot@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@ovh-ux/ng-ovh-chatbot/-/ng-ovh-chatbot-2.0.0.tgz#9894c2e6baab6f244ecc3722c1a9e469c3f26d28"
-  integrity sha512-UdV33Pg3DfpNv5BUQ8zIV32YvF6Atbk0U9QV91wkFz0OceRb3A9i3JB95PtnCKqRrqpbKlq8dYwWm4BwT16ZpQ==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@ovh-ux/ng-ovh-chatbot/-/ng-ovh-chatbot-2.0.1.tgz#94e91326c1e17bcab164e04a1b08ab02f36f9ab8"
+  integrity sha512-JBrXtM/qZzMXEiPB72TpVaG7yAOJx+9oaf73eOwav1X7VfEZrGxwWMXyW+yLnChkvjfoW0ZAejudBL0Z9FoP5g==
   dependencies:
     lodash "^4.17.11"
 
@@ -1053,6 +1066,14 @@
     lodash "^4.17.11"
     ovh-ui-kit "^2.23.1"
     ovh-ui-kit-bs "^2.1.1"
+
+"@ovh-ux/ng-ovh-otrs@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@ovh-ux/ng-ovh-otrs/-/ng-ovh-otrs-7.0.1.tgz#284ffabb65a4631c2748609d4d435808c6e482b1"
+  integrity sha512-e5p+Yfelnvfy1XdxBaAuF1USn9PuuZE8JcKEusbO30jOvx8PamQS1ha7b4tlG98jN3Hjr6lTxGMOR+0Rc2qzrg==
+  dependencies:
+    draggable "^4.2.0"
+    lodash "^4.17.11"
 
 "@ovh-ux/ng-ovh-sso-auth-modal-plugin@^3.0.0":
   version "3.0.0"
@@ -4319,6 +4340,11 @@ dot-prop@^4.1.0, dot-prop@^4.1.1:
   integrity sha512-tUMXrxlExSW6U2EXiiKGSBVdYgtV8qlHL+C10TsW4PURY/ic+eaysnSkwB4kA/mBlCyy/IKDJ+Lc3wbWeaXtuQ==
   dependencies:
     is-obj "^1.0.0"
+
+draggable@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/draggable/-/draggable-4.2.0.tgz#149c0ca176df6d8b512048c8e451f499fc047b9a"
+  integrity sha1-FJwMoXbfbYtRIEjI5FH0mfwEe5o=
 
 duplexer2@0.0.2:
   version "0.0.2"
@@ -8404,6 +8430,11 @@ moment@>=2.5.0, moment@^2.10.6, moment@^2.15.2, moment@^2.22.2:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
   integrity sha1-PCV/mDn8DpP/UxSWMiOeuQeD/2Y=
 
+moment@^2.24.0:
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -9146,9 +9177,9 @@ ovh-angular-user-pref@^0.3.1:
   integrity sha1-B/V5JRNlHzJirkh5wXRCNkmwgwc=
 
 ovh-api-services@^6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/ovh-api-services/-/ovh-api-services-6.1.2.tgz#b442f306fc77e01aaa2a3b515e1f3c32e3e73c4b"
-  integrity sha512-v8XtPLwVVEnDX2C2t3tEWCAJo6pj3NE2pupir4z8ms4KW228prTWk68qPPvIAs0N9AJ/UR0ubXSn+2BiCKf1uQ==
+  version "6.17.1"
+  resolved "https://registry.yarnpkg.com/ovh-api-services/-/ovh-api-services-6.17.1.tgz#f89d92f5102b812ff6a6cc940560c5002692da9a"
+  integrity sha512-Su5P6w2hWDAmo2ctedLIs2rljRwyHZhH9nn1hGlvnnw2w1lV7RrAQxhIkkZqqVCriXNij5MxpkRDsoORVKPAoQ==
   dependencies:
     lodash "^3.10.1"
 
