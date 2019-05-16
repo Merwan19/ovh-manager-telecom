@@ -921,6 +921,13 @@
     lodash "^4.17.11"
     moment "^2.24.0"
 
+"@ovh-ux/manager-navbar@git+https://github.com/ovh-ux/manager.git#navbar-split":
+  version "0.2.0-alpha.3"
+  resolved "git+https://github.com/ovh-ux/manager.git#c745becde4bf0ed34e0172098282320a289ef49a"
+  dependencies:
+    lodash "^4.17.11"
+    moment "^2.24.0"
+
 "@ovh-ux/manager-overthebox@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@ovh-ux/manager-overthebox/-/manager-overthebox-3.0.0.tgz#68b170392cf3f99662ecc150ea35efe1383cfb17"
