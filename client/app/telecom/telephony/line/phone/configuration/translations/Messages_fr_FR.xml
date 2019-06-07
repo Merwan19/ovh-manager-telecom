@@ -121,6 +121,7 @@
    <translation id="telephony_line_phone_configuration_config_new_call">Transfert supervisé (pré-appel avec votre collègue)</translation>
    <translation id="telephony_line_phone_configuration_config_attended_transfer">Transfert accompagné (pré-appel avec le client)</translation>
    <translation id="telephony_line_phone_configuration_config_blind_transfer">Transfert à l'aveugle (sans pré-appel)</translation>
+   <translation id="telephony_line_phone_configuration_config_optional">Choisir au moment de l'appel</translation>
    <translation id="telephony_line_phone_configuration_config_blf_led_mode">Voyant</translation>
    <translation id="telephony_line_phone_configuration_config_blink_red_on_hold">rouge clignotant</translation>
    <translation id="telephony_line_phone_configuration_config_solid_red_on_hold">rouge fixe</translation>
